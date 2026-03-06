@@ -30,20 +30,23 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
 var app = builder.Build();
 
-// Seed default admin on startup
+// Seed default admin
 using (var scope = app.Services.CreateScope())
 {
     var authService = scope.ServiceProvider.GetRequiredService<AuthService>();
     await authService.SeedDefaultAdminAsync();
 }
 
-// Configure the HTTP request pipeline.
+// Railway PORT FIX
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://0.0.0.0:{port}");
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
-app.UseStaticFiles();
 
+app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthentication();
