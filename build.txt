@@ -1,0 +1,21 @@
+C:\ADMIN\QRRewardPlatform\Views\QRCode\Index.cshtml(20,44): warning CS8602: Dereference of a possibly null reference. [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Views\Campaign\Index.cshtml(112,40): warning CS8602: Dereference of a possibly null reference. [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Views\Campaign\Index.cshtml(168,40): warning CS8602: Dereference of a possibly null reference. [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Controllers\QRCodeController.cs(22,13): error CS0103: The name '_qrService' does not exist in the current context [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Controllers\QRCodeController.cs(51,35): error CS0103: The name '_qrService' does not exist in the current context [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Controllers\QRCodeController.cs(77,27): error CS0103: The name '_qrService' does not exist in the current context [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Controllers\QRCodeController.cs(96,35): error CS0103: The name '_qrService' does not exist in the current context [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+
+Build FAILED.
+
+C:\ADMIN\QRRewardPlatform\Views\QRCode\Index.cshtml(20,44): warning CS8602: Dereference of a possibly null reference. [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Views\Campaign\Index.cshtml(112,40): warning CS8602: Dereference of a possibly null reference. [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Views\Campaign\Index.cshtml(168,40): warning CS8602: Dereference of a possibly null reference. [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Controllers\QRCodeController.cs(22,13): error CS0103: The name '_qrService' does not exist in the current context [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Controllers\QRCodeController.cs(51,35): error CS0103: The name '_qrService' does not exist in the current context [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Controllers\QRCodeController.cs(77,27): error CS0103: The name '_qrService' does not exist in the current context [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+C:\ADMIN\QRRewardPlatform\Controllers\QRCodeController.cs(96,35): error CS0103: The name '_qrService' does not exist in the current context [C:\ADMIN\QRRewardPlatform\QRRewardPlatform.csproj]
+    3 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:00:04.55
